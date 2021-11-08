@@ -1,4 +1,10 @@
+
+
 def cipher(text, shift, encrypt=True):
+    """
+    This is a package to encrypt sth.
+    """
+
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
