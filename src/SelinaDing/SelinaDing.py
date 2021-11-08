@@ -1,6 +1,10 @@
 import pandas as pd
 
 def cipher(text, shift, encrypt=True):
+     """
+    This is a package that enables you to encrypts or decrypts supplied text. 
+    
+    """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
